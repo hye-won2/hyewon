@@ -1,0 +1,3230 @@
+
+  @media screen and (orientation:landscape) and (min-height: 1041px) {
+    .form{
+        margin-top: 40%;
+    }
+
+    .page_title {
+            margin-top: 25%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 25% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }  
+
+  @media screen and (orientation:landscape) and (min-height: 941px) and (max-height: 1040px) {
+    .form{
+        margin-top: 25%;
+    }
+
+    .page_title {
+            margin-top: 25%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 30% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }  
+
+@media screen and (orientation: portrait) and (min-height: 941px) {
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 45%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 50% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+
+  @media screen and (orientation:landscape) and (min-height: 841px) and (max-height: 940px) {
+    .page_title {
+            margin-top: 25%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 35% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }  
+
+  @media screen and (orientation:landscape) and (min-height: 741px) and (max-height: 840px) {
+    .page_title {
+            margin-top: 25%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 30% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+
+@media screen and (orientation: portrait) and (min-height: 741px) and (max-height: 940px) {
+    .form{
+        margin-top: 5%;
+    }
+
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 65%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 70% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+  
+  @media screen and (orientation:landscape) and (min-height: 641px) and (max-height: 740px) {
+    .page_title {
+            margin-top: 15%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin:25% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+
+  @media screen and (orientation: portrait) and (min-height: 541px) and (max-height: 740px) {
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 45%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 70% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+
+@media screen and (orientation:landscape) and (min-height: 541px) and (max-height: 640px) {
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+ .modal-content7 {
+    display: inline-block;
+    margin: 25% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+
+@media screen and (orientation: portrait) and (min-height: 441px) and (max-height: 540px) {
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 25%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin: 55% auto; /* 15% from the top and centered */
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  @media screen and (orientation:landscape) and (min-height: 441px) and (max-height: 540px) {
+    .form{
+        margin-top: 15%;
+    }
+
+    .page_title {
+            margin-top: 50%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 6%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin-top: 25%;
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+ @media screen and (orientation:landscape) and (min-height: 401px) and (max-height: 440px) {
+    .form{
+        margin-top: 5%;
+    }
+
+    .page_title {
+            margin-top: 50%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 6%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin-top: 15%;
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  @media screen and (orientation:landscape) and (min-height: 351px) and (max-height: 400px) {
+    .form{
+        margin-top: 5%;
+    }
+
+    .page_title {
+            margin-top: 50%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 6%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin-top: 18%;
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  @media screen and (orientation:landscape) and (min-height: 301px) and (max-height: 350px) {
+    .form{
+        margin-top: -5%;
+    }
+
+    .page_title {
+            margin-top: 50%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 6%;
+        margin-bottom: 1em;
+    }
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin-top: 15%;
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  @media screen and (orientation: portrait) and (min-height: 241px) and (max-height: 340px) {
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 3%;
+        margin-bottom: 1em;
+    }
+
+    .page_title {
+            margin-top: 10em;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+             
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 170px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 0.5em;
+            width: 180px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+     /* #submit:hover{
+        justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 0.5em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(105deg,
+            rgba(222,167,219,1) 0%,
+            rgb(249, 221, 232) 100%);
+            border:#dea7db;
+            color: #ffffff;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+            transition: all .5s;
+            animation: fadeIn 0.3s forwards;
+     }    */
+
+        #forgot{
+            text-align: center;
+            margin-top: 29px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+  
+  @media screen and (orientation: portrait) and (max-width: 240px) {
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        max-width: 10%;
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 12%;
+        margin-bottom: 0.3em;
+    }
+
+    .page_title {
+            margin-top: 10em;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+             
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 170px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 0.5em;
+            width: 180px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 29px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  @media screen and (orientation:landscape) and (max-height: 260px) {
+    /* @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    } */
+
+    .main {
+        display: inline-block;
+        width: 20%;
+        height: 20%;
+        /* animation: fadeInUp 1s; */
+        margin-right: 55%;
+        margin-top: 2%;
+        margin-bottom: -0.3em;
+    }
+
+    .page_title {
+            margin-top: 10em;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 41px;
+            text-align: center;
+             }
+             
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 10px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 170px;
+            height: 20px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 10px;
+        }
+        #pass_ {
+            font-size: 10px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.8vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.8vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 0.5em;
+            width: 180px;
+            height: 24px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 13px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 19px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+            /* 비밀번호찾기 */
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 0.5em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+ /* 로그인창 힌트 */
+.modal-content7 {
+  display: inline-block;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing:-2.5px;
+  word-spacing:-2px;
+  line-height:120%;
+  margin: 25% auto; /* 15% from the top and centered */
+  padding-top: 0.8em;
+  border: 1px solid #888;
+  width: 8em; /* Could be more or less, depending on screen size */
+  height: 3em;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}   
+  }
+
+  /* @media screen and (min-width: 871px) {
+  .page_title {
+    margin-top: -10%;
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 41px;
+    text-align: center;
+     }
+
+h1 {
+    font-family: 'font', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 144, 176);
+    }
+
+html {
+    text-align: center;
+    }
+    
+input {
+    margin-top: 12px;
+    width: 220px;
+    height: 35px;
+    margin-bottom: 8px;
+    border-radius: 8px 8px 8px 8px;
+    border: #e8e8e8 1px;
+    background-color: #fefefe;
+    padding-left: 10px;
+    color: rgb(158, 158, 158);
+}
+#id_ {
+    font-size: 13px;
+}
+#pass_ {
+    font-size: 13px;
+}
+
+.id_form{
+    display: inline-block;
+    color:#dea7db;
+    font-weight: 600;
+    margin-right: 0%;
+    margin-bottom: 3vh;
+    line-height: 10%;
+    text-align: left;
+}
+.pw_form{
+    display: inline-block;
+    color:#dea7db;
+    font-weight: 600;
+    margin-right: 0%;
+    margin-bottom: 0.3vh;
+    line-height: 10%;
+    text-align: left;
+}
+
+
+#submit {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1em;
+    width: 230px;
+    height: 40px;
+    border-radius: 8px 8px 8px 8px;
+    background: rgb(222,167,219);
+    background: linear-gradient(15deg,
+    rgba(222,167,219,1) 20%,
+    rgba(255,221,237,1) 100%);
+    border:#dea7db;
+    color: #fffffff3;
+    font-size: 18px;
+    font-family: 'font', sans-serif;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+}
+
+
+#forgot{
+    text-align: center;
+    margin-top: 50px;
+    border:transparent;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+    background-color:transparent;
+    font-family: 'font', sans-serif;
+    cursor: pointer;
+}
+
+
+.btn {
+display: inline-block;
+cursor: pointer;
+margin-top: 1em;
+padding: 0.4em 2em;
+border-radius: 30px 30px;
+border-width: 0.7px;
+border-color: transparent;
+background-color: transparent;
+font-size: 13px;
+font-weight: 100;
+color:rgb(138, 138, 138);
+}
+.btn:hover {
+display: inline-block;
+cursor: pointer;
+margin-top: 1em;
+padding: 0.4em 2em;
+border-radius: 30px 30px;
+border-width: 0.7px;
+border-color: transparent;
+background-color: transparent;
+font-size: 13px;
+font-weight: 100;
+color:rgb(138, 138, 138);
+}
+
+
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+}
+to {
+    opacity: 1;
+    transform: translateZ(0);
+}
+}
+
+.main {
+position: relative;
+animation: fadeInUp 1s;
+margin-top: 18em;
+margin-bottom: 1em;
+}
+
+
+.modal-content7 {
+display: inline-block;
+margin: 50% auto;
+background-color: #fefefe;
+text-align: center;
+font-size: 3vh;
+font-weight: 900;
+letter-spacing:-2.5px;
+word-spacing:-2px;
+line-height:120%;
+padding: 10px;
+padding-top: 3.5vh;
+border: 1px solid #888;
+width: 25vh;
+height: 10vh;
+background: #fff;
+border-radius: 15px;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+  } */
+
+  /* @media screen and (orientation:landscape) and (min-height: 741px){
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 25%;
+        margin-bottom: 1em;
+    }
+
+
+ .modal-content7 {
+    display: inline-block;
+    margin: 30% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  } */
+
+
+
+  /* @media screen and (orientation:landscape) and (min-height: 741px) and (max-height: 840px) {
+    .page_title {
+            margin-top: 10%;
+            font-weight: 600;
+            font-size: 2.5em;
+            line-height: 41px;
+            text-align: center;
+             }
+
+        h1 {
+            font-family: 'font', sans-serif;
+            font-size: 18px;
+            color: rgb(255, 144, 176);
+            }
+
+        html {
+            text-align: center;
+            }
+            
+        input {
+            margin-top: 12px;
+            width: 220px;
+            height: 35px;
+            margin-bottom: 8px;
+            border-radius: 8px 8px 8px 8px;
+            border: #e8e8e8 1px;
+            background-color: #fefefe;
+            padding-left: 10px;
+            color: rgb(158, 158, 158);
+        }
+        #id_ {
+            font-size: 13px;
+        }
+        #pass_ {
+            font-size: 13px;
+        }
+
+        .id_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+        .pw_form{
+            display: inline-block;
+            color:#dea7db;
+            font-weight: 600;
+            margin-right: 0%;
+            margin-bottom: 0.3vh;
+            line-height: 10%;
+            text-align: left;
+        }
+
+
+        #submit {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1em;
+            width: 230px;
+            height: 40px;
+            border-radius: 8px 8px 8px 8px;
+            background: rgb(222,167,219);
+            background: linear-gradient(15deg,
+            rgba(222,167,219,1) 20%,
+            rgba(255,221,237,1) 100%);
+            border:#dea7db;
+            color: #fffffff3;
+            font-size: 18px;
+            font-family: 'font', sans-serif;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            box-shadow: 0px 0.7px 2.8px rgba(86, 86, 86, 0.1);
+        }
+
+
+        #forgot{
+            text-align: center;
+            margin-top: 50px;
+            border:transparent;
+            font-size: 13px;
+            color: rgb(133, 133, 133);
+            background-color:transparent;
+            font-family: 'font', sans-serif;
+            cursor: pointer;
+        }
+        
+
+    .btn {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+    .btn:hover {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.4em 2em;
+        border-radius: 30px 30px;
+        border-width: 0.7px;
+        border-color: transparent;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 100;
+        color:rgb(138, 138, 138);
+    }
+
+
+  @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+ 
+    .main {
+        position: relative;
+        animation: fadeInUp 1s;
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+
+
+ .modal-content7 {
+    display: inline-block;
+    margin: 30% auto;
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing:-2.5px;
+    word-spacing:-2px;
+    line-height:120%;
+    padding: 10px;
+    padding-top: 3.5vh;
+    border: 1px solid #888;
+    width: 25vh;
+    height: 10vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  } */

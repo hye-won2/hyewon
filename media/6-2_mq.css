@@ -1,0 +1,1304 @@
+
+
+
+
+/* 가로 */
+@media screen and (orientation:landscape) {
+    .main3 .container3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+   .box_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_wrap + .box_wrap {
+    margin-top: -1em;
+  }
+  .box_wrap .container3 {
+    display: flex;
+    gap: 1em;
+  }
+  .box_wrap:nth-child(odd) .container3 {
+    flex-direction: row;
+  }
+  .box_wrap:nth-child(even) .container3 {
+    flex-direction: row-reverse;
+    padding: 0.5em;
+  }
+  .box_wrap .img_box {
+    flex: 4;
+  }
+  .box_wrap .img_box > img {
+    width: 100%;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.5vh;
+  }
+  
+  .box_wrap .txt_box4 {
+    flex: 6;
+    font: 200 1em/1.8 "Noto Sans KR";
+  }
+  .box_wrap .txt_box4 h4:before {
+    content: "";
+    display: block;
+    background-color: #f1acac;
+    width: 2em;
+    height: 2px;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.4vh;
+  }
+  }
+
+ @media screen and (orientation:landscape) and ( min-height: 1001px ) and ( max-height: 2000px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+     max-width: 48em;
+     height: 35.2em;
+     justify-content: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 인스타 콘텐츠 */
+   .modal-content9{
+     max-width: 35.2em;
+     max-height: 35.2em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 그린비타 컨셉샷 */
+   .modal-content16 {
+     max-width: 53.5em;
+     max-height: 30.2em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 더스킨페이스 컨셉샷 */
+   .modal-content4 {
+    max-width: 30.2em;
+     height: 39.8em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 12% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 코스모진 콘텐츠 */
+   .modal-content10 {
+    max-width: 48em;
+     height: 32em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+     } 
+
+@media screen and (orientation:landscape) and ( min-height: 901px ) and ( max-height: 1000px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+     max-width: 41em;
+     height: 30.2em;
+     justify-content: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 인스타 콘텐츠 */
+   .modal-content9{
+     max-width: 30.2em;
+     max-height: 30.2em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 그린비타 컨셉샷 */
+   .modal-content16 {
+     max-width: 53.5em;
+     max-height: 30.2em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 더스킨페이스 컨셉샷 */
+   .modal-content4 {
+    max-width: 30.2em;
+     height: 39.8em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 10% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 코스모진 콘텐츠 */
+   .modal-content10 {
+     max-width: 40em;
+     height: 26.6em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 15% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+     } 
+
+  @media screen and (orientation:landscape) and ( min-height: 801px ) and ( max-height: 900px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+     max-width: 41em;
+     height: 30.2em;
+     justify-content: center;
+     background-color: #fefefe;
+     margin: 10% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 인스타 콘텐츠 */
+   .modal-content9{
+     max-width: 30.2em;
+     max-height: 30.2em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 10% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 그린비타 컨셉샷 */
+   .modal-content16 {
+     max-width: 40em;
+     max-height: 22.5em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 10% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 더스킨페이스 컨셉샷 */
+   .modal-content4 {
+    max-width: 30.2em;
+     height: 39.8em;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 5% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+   
+   /* 코스모진 콘텐츠 */
+   .modal-content10 {
+     max-width: 40em;
+     height: 26.6em;
+     justify-content: center;
+     justify-items: center;
+     background-color: #fefefe;
+     margin: 10% auto;
+     border: 1px solid #888;
+     background: #fff;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+   }
+     } 
+
+  @media screen and (orientation:landscape) and ( min-height: 701px ) and ( max-height: 800px ) {
+ /* 대성금속 콘텐츠 */
+ .modal-content12{
+  max-width: 41em;
+  height: 30.2em;
+  justify-content: center;
+  background-color: #fefefe;
+  margin: 8% auto;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+/* 인스타 콘텐츠 */
+.modal-content9{
+  max-width: 30.2em;
+  max-height: 30.2em;
+  justify-items: center;
+  background-color: #fefefe;
+  margin: 8% auto;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+/* 그린비타 컨셉샷 */
+.modal-content16 {
+  max-width: 40em;
+  max-height: 22.5em;
+  justify-content: center;
+  justify-items: center;
+  background-color: #fefefe;
+  margin: 8% auto;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+/* 더스킨페이스 컨셉샷 */
+.modal-content4 {
+  width: 26.7em;
+  max-height: 30.4em;
+  justify-items: center;
+  background-color: #fefefe;
+  margin: 8% auto;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+/* 코스모진 콘텐츠 */
+.modal-content10 {
+  max-width: 40em;
+  height: 26.6em;
+  justify-content: center;
+  justify-items: center;
+  background-color: #fefefe;
+  margin: 8% auto;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+  } 
+ 
+  @media screen and (orientation: landscape) and ( min-height: 600px ) and ( max-height: 700px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+      max-width:30em;
+      height: 22em;
+      justify-content: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 인스타 콘텐츠 */
+    .modal-content9{
+      max-width:25em;
+      max-height:25em;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 그린비타 컨셉샷 */
+    .modal-content16 {
+      max-width:39em;
+      height: 22em;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 더스킨페이스 컨셉샷 */
+    .modal-content4 {
+      width:20.1em;
+      height: 26.5em;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 코스모진 콘텐츠 */
+    .modal-content10 {
+      max-width:39em;
+      height: 26em;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    }
+
+  @media screen and (orientation: landscape) and ( max-height: 599px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+      max-width:52vh;
+      max-height: 38.2vh;
+      justify-content: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 인스타 콘텐츠 */
+    .modal-content9{
+      max-width:52vh;
+      max-height:52vh;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 그린비타 컨셉샷 */
+    .modal-content16 {
+      max-width:52vh;
+      max-height: 29.2vh;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 더스킨페이스 컨셉샷 */
+    .modal-content4 {
+      max-width:50vh;
+      max-height: 66.4vh;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 2% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 코스모진 콘텐츠 */
+    .modal-content10 {
+      max-width:52vh;
+      max-height: 35vh;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 5% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    }
+
+
+
+
+
+  /* 세로 */
+  @media screen and (orientation: portrait) and ( min-height: 1140px ) and (max-height:1500px) {
+    .main3 .container3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+   .box_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_wrap + .box_wrap {
+    margin-top: -1em;
+  }
+  .box_wrap .container3 {
+    display: flex;
+    gap: 1em;
+  }
+  .box_wrap:nth-child(odd) .container3 {
+    flex-direction: row;
+  }
+  .box_wrap:nth-child(even) .container3 {
+    flex-direction: row-reverse;
+    padding: 0.5em;
+  }
+  .box_wrap .img_box {
+    flex: 4;
+  }
+  .box_wrap .img_box > img {
+    width: 100%;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.5vh;
+  }
+  
+  .box_wrap .txt_box4 {
+    flex: 6;
+    font: 200 1em/1.8 "Noto Sans KR";
+  }
+  .box_wrap .txt_box4 h4:before {
+    content: "";
+    display: block;
+    background-color: #f1acac;
+    width: 2em;
+    height: 2px;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.4vh;
+  }
+  }
+  
+  @media screen and (orientation: portrait) and ( min-width: 1000px ) {
+    .main3 .container3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+   .box_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_wrap + .box_wrap {
+    margin-top: -1em;
+  }
+  .box_wrap .container3 {
+    display: flex;
+    gap: 1em;
+  }
+  .box_wrap:nth-child(odd) .container3 {
+    flex-direction: row;
+  }
+  .box_wrap:nth-child(even) .container3 {
+    flex-direction: row-reverse;
+    padding: 0.5em;
+  }
+  .box_wrap .img_box {
+    flex: 4;
+  }
+  .box_wrap .img_box > img {
+    width: 100%;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.5vh;
+  }
+  
+  .box_wrap .txt_box4 {
+    flex: 6;
+    font: 200 1em/1.8 "Noto Sans KR";
+  }
+  .box_wrap .txt_box4 h4:before {
+    content: "";
+    display: block;
+    background-color: #f1acac;
+    width: 2em;
+    height: 2px;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.4vh;
+  }
+  }
+  
+  @media screen and (orientation: portrait) and ( min-height: 1000px ) {
+    .main3 .container3 {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+   .box_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_wrap + .box_wrap {
+    margin-top: -1em;
+  }
+  .box_wrap .container3 {
+    display: flex;
+    gap: 1em;
+  }
+  .box_wrap:nth-child(odd) .container3 {
+    flex-direction: row;
+  }
+  .box_wrap:nth-child(even) .container3 {
+    flex-direction: row-reverse;
+    padding: 0.5em;
+  }
+  .box_wrap .img_box {
+    flex: 4;
+  }
+  .box_wrap .img_box > img {
+    width: 100%;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.5vh;
+  }
+  
+  .box_wrap .txt_box4 {
+    flex: 6;
+    font: 200 1em/1.8 "Noto Sans KR";
+  }
+  .box_wrap .txt_box4 h4:before {
+    content: "";
+    display: block;
+    background-color: #f1acac;
+    width: 2em;
+    height: 2px;
+  }
+  
+  .box_wrap .txt_box4 p + p {
+    margin-top: 0.4vh;
+  }
+  }
+  
+  @media screen and (orientation: portrait) and ( min-height: 1140px ) and (max-height:1500px) {
+  /* 대성금속 콘텐츠 */
+  .modal-content12{
+    max-width:48vh;
+    height: 35.3vh;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 인스타 콘텐츠 */
+  .modal-content9{
+    max-width:48vh;
+    max-height:48vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 그린비타 컨셉샷 */
+  .modal-content16 {
+    max-width:48vh;
+    max-height: 27.1vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 더스킨페이스 컨셉샷 */
+  .modal-content4 {
+    max-width:48vh;
+    height: 63.2vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 코스모진 콘텐츠 */
+  .modal-content10 {
+    max-width:48vh;
+    height: 32.1vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+  
+  
+  @media screen and (orientation: portrait) and ( min-height: 940px ) and ( max-height: 1139px ) {
+  /* 대성금속 콘텐츠 */
+  .modal-content12{
+    max-width:48vh;
+    height: 35.3vh;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 인스타 콘텐츠 */
+  .modal-content9{
+    max-width:48vh;
+    max-height:48vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 그린비타 컨셉샷 */
+  .modal-content16 {
+    max-width:48vh;
+    max-height: 27.1vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 더스킨페이스 컨셉샷 */
+  .modal-content4 {
+    max-width:48vh;
+    height: 63.2vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 코스모진 콘텐츠 */
+  .modal-content10 {
+    max-width:48vh;
+    height: 32.1vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+  
+  @media screen and (orientation: portrait) and ( min-height: 601px ) and ( max-height: 810px ) {
+  /* 대성금속 콘텐츠 */
+  .modal-content12{
+    max-width:41vh;
+    max-height: 30.2vh;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 인스타 콘텐츠 */
+  .modal-content9{
+    max-width:41vh;
+    max-height:41.2vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 그린비타 컨셉샷 */
+  .modal-content16 {
+    max-width:41vh;
+    max-height: 23.2vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 더스킨페이스 컨셉샷 */
+  .modal-content4 {
+    max-width:41vh;
+    max-height: 54.1vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 코스모진 콘텐츠 */
+  .modal-content10 {
+    max-width:41vh;
+    max-height: 27.4vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+  
+  
+  
+  @media screen and (orientation:landscape) and (min-height: 701px){
+    /* 모바일 사이드바 */
+  .navBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 5px;
+  }
+  .iconBtn {
+    width: 35px;
+    cursor: pointer;
+  
+  }
+  .menuWrap.on {
+    right: 0;
+  }
+  .menuWrap {
+    position: fixed;
+    top: 0;
+    right: -50vh;
+    z-index: 400;
+    width: 48vh;
+    /* width: 75%; */
+    height: 100%;
+    padding: 2em 20px;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    transition: right 0.3s ease-in-out;
+    background-color: #393939fb;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.139);
+  }
+  
+  /* 모바일 메뉴바 폰트 스타일 */
+  .listStyle_main{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: bold;
+    font-size:3.4vh;
+    color: rgb(255, 255, 255);
+    padding-top:1vh;
+  }
+  .listStyle_sub{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+  }
+  
+  .listStyle_sub2{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+    padding-bottom:1vh;
+  }
+  
+  #menuBtn {
+    width: 35px;
+    z-index: 401;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  #dimmed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btnRotate {
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-in-out;
+  }
+    }
+
+    
+  @media screen and (orientation:landscape) and (min-height: 601px) and (max-height: 700px) {
+  /* 모바일 사이드바 */
+  .navBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 5px;
+  }
+  .iconBtn {
+    width: 35px;
+    cursor: pointer;
+  
+  }
+  .menuWrap.on {
+    right: 0;
+  }
+  .menuWrap {
+    position: fixed;
+    top: 0;
+    right: -68vh;
+    z-index: 400;
+    width: 68vh;
+    /* width: 75%; */
+    height: 100%;
+    padding: 2em 20px;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    transition: right 0.3s ease-in-out;
+    background-color: #393939fb;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.139);
+  }
+  
+  /* 모바일 메뉴바 폰트 스타일 */
+  .listStyle_main{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: bold;
+    font-size:3.4vh;
+    color: rgb(255, 255, 255);
+    padding-top:1vh;
+  }
+  .listStyle_sub{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+  }
+  
+  .listStyle_sub2{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+    padding-bottom:1vh;
+  }
+  
+  #menuBtn {
+    width: 35px;
+    z-index: 401;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  #dimmed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btnRotate {
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-in-out;
+  }
+  }
+  
+  
+  @media screen and (orientation:landscape) and (max-height: 600px) {
+  /* 모바일 사이드바 */
+  .navBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 5px;
+  }
+  .iconBtn {
+    width: 35px;
+    cursor: pointer;
+  
+  }
+  .menuWrap.on {
+    right: 0;
+  }
+  .menuWrap {
+    position: fixed;
+    top: 0;
+    right: -68vh;
+    z-index: 400;
+    width: 68vh;
+    /* width: 75%; */
+    height: 100%;
+    padding: 2em 20px;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    transition: right 0.3s ease-in-out;
+    background-color: #393939fb;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.139);
+  }
+  
+  /* 모바일 메뉴바 폰트 스타일 */
+  .listStyle_main{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: bold;
+    font-size:3.4vh;
+    color: rgb(255, 255, 255);
+    padding-top:1vh;
+  }
+  .listStyle_sub{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+  }
+  
+  .listStyle_sub2{
+    letter-spacing:-2px;
+    word-spacing:1px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+    padding-bottom:1vh;
+  }
+  
+  
+  #menuBtn {
+    width: 35px;
+    z-index: 401;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  #dimmed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btnRotate {
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-in-out;
+  }
+  }
+  
+  @media  ( max-width: 314px ) {
+    /* 대성금속 콘텐츠 */
+    .modal-content12{
+      max-width:15.2em;
+      max-height: 11.2em;
+      justify-content: center;
+      background-color: #fefefe;
+      margin: 15% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 인스타 콘텐츠 */
+    .modal-content9{
+      max-width:15.2em;
+      max-height: 15.2em;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 15% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 그린비타 컨셉샷 */
+    .modal-content16 {
+      max-width:15.2em;
+      max-height: 8.5em;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 15% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 더스킨페이스 컨셉샷 */
+    .modal-content4 {
+      max-width:15.2em;
+      height: 20em;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 15% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+    
+    /* 코스모진 콘텐츠 */
+    .modal-content10 {
+      max-width:15.2em;
+      max-height: 10.2em;
+      justify-content: center;
+      justify-items: center;
+      background-color: #fefefe;
+      margin: 15% auto;
+      border: 1px solid #888;
+      background: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+        /* 마블콘텐츠 아이콘 */
+        .icon_item5{
+          float:left;
+          list-style:none;
+          display:inline-block;
+          border: 0px;
+          margin-left: 50px;
+          margin-top: -135px;
+          margin-right: -50px;
+          margin-bottom: 150px;
+        }  
+    }
+
+
+    @media screen and (orientation: portrait) and ( min-height: 100px ) and ( max-height: 600px ) {
+  /* 대성금속 콘텐츠 */
+  .modal-content12{
+    max-width:52vh;
+    max-height: 38.2vh;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 인스타 콘텐츠 */
+  .modal-content9{
+    max-width:52vh;
+    max-height:52vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 그린비타 컨셉샷 */
+  .modal-content16 {
+    max-width:52vh;
+    max-height: 29.2vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 더스킨페이스 컨셉샷 */
+  .modal-content4 {
+    max-width:52vh;
+    max-height: 68.4vh;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  
+  /* 코스모진 콘텐츠 */
+  .modal-content10 {
+    max-width:52vh;
+    max-height: 35vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+  }
+  
+   
+
+
