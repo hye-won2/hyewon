@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 공유 -->
+    <meta property="og:url" content="http://www.hyewon.woobi.co.kr/">
+    <meta property="og:title" content="박혜원 포트폴리오">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/or_img.jpg">
+    <meta property="og:description" content="시각디자인 부문">
+    <!-- font css -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" />
+    <!-- // font css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- 팝업창 -->
+    <!-- <link rel="stylesheet" href="style/popup.css"> -->
+    <link rel="stylesheet" href="style/silde_popup_sub.css">
+    <!-- 스크롤애니메이션    -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <!-- <link rel="stylesheet" href="style/silde_img.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- 파비콘 삽입 -->
+<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manbifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- 파비콘 끝 -->
+    <title>박혜원 패키지디자인</title>
+
+    <style>
+@import "./media/5-3_mq.css";
+  
+.modal-content {
+            justify-content: center;
+            justify-items: center;
+            background-color: #fefefe;
+            overflow-y: auto;
+            overflow-x: hidden;
+    }
+    </style>    
+</head>
+<body>
+<!-- header 시작 -->
+ <div id="wrap">
+    <div class="mainNav2">
+    </div>
+    <div class="scrollNav2">
+    </div></div>
+
+    <div class="header">
+      <h1 class="logo">
+          <a href="./main.html">
+            <img class="main-logo-img" alt="메인로고" title="">
+              <span class="hidden">박혜원</span>
+          </a>
+      </h1>
+    
+    <div class="navBox">
+        <img class="iconBtn" id="menuBtn" src="./images/menu_bar_m.png" />
+      </div>
+      
+      <div class="menuWrap">
+        <nav id="menu">
+          <ul class="menuList">
+            <li><a href="./sub0.html"><div class="listStyle_main">자기소개</div></a></li>
+            <li><a href="./sub0.html"><div class="listStyle_sub">프로필</div></a></li>
+            <li><a href="./sub0_2.html"><div class="listStyle_sub2">경력사항</div></a></li>
+            </li>
+            <hr size="0.1" color="#d7d7d7">
+            <li><a href="./sub5_1.html"><div class="listStyle_main">패키지디자인</div></a></li>
+            <li><a href="./sub5_1.html"><div class="listStyle_sub">귀금속패키지</div></a></li>
+            <li><a href="./sub5_2.html"><div class="listStyle_sub">전자기기패키지</div></a></li>
+            <li><a href="./sub5_3.html"><div class="listStyle_sub2">화장품패키지</div></a></li>
+            </li>
+            <hr size="0.1" color="#d7d7d7">
+             <li><a href="./sub6_1.html"><div class="listStyle_main">시각디자인</div></a></li>
+             <li><a href="./sub6_1.html"><div class="listStyle_sub">편집디자인</div></a></li>
+             <li><a href="./sub6_2.html"><div class="listStyle_sub">콘텐츠디자인</div></a></li>
+             <li><a href="./sub6_3.html"><div class="listStyle_sub2">웹디자인</div></a></li>     
+             </li>
+              <hr size="0.1" color="#d7d7d7">
+              <li><a href="./sub7_1.html"><div class="listStyle_main">영상제작</div></a></li>
+              <!-- <li><a href="./sub7_1.html"><div class="listStyle_sub">제품홍보영상</div></a></li>
+              <li><a href="./sub7_2.html"><div class="listStyle_sub">애니메이션</div></a></li> -->
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- header 끝 -->
+
+    <!-- main 시작 -->
+    <div class="main3">
+      <h3 class="page_title3">패키지디자인</h3>
+      <div class="container3">
+          <ul class="tab_btn tp-box">
+              <li><a href="./sub5_1.html">귀금속패키지</a></li>
+              <li><a href="./sub5_2.html">전자기기패키지</a></li>
+              <li><a href="./sub5_3.html" class="active">화장품패키지</a></li>
+          </ul>
+      </div>
+
+      <!-- <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_1.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">챠밍 벨벳 틴트</div><br/>  
+                    <span style =
+                    "display: inline-block;
+                    background-color: #e297b6;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">색조화장품/틴트</span></h4></p>
+              <p><div class="txt_box_class2">2019년 8월-10월, (주)더스킨페이스</div></p>
+              <p><div class="txt_box_class3">
+                    기존에 출시한 립 큐티 매트 제품의 리뉴얼 버전으로 새롭게 리디자인한 패키지입니다.
+                    단상자에 홀로그램박을 사용하여 단조로운 패키지에 포인트를 주었습니다.
+                    캡의 유광 핑크박으로 후가공 처리하여 귀여움과 고급스러움을 동시에 표현하고자 했고,
+                    바디 부분의 브랜드 로고를 백색 실크인쇄로 깔끔하고 심플하게 표현하고자 했습니다.</div></p>
+
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+                        
+                        <h1 class="btn">패키지</h1>
+                        <div class="modal">
+                          <div class="modal-content3">
+                            <span class="close">&times;</span> 
+                            <div id="slide5_3-1"></div>
+                          </div>
+                        </div>
+               
+                       <h1 class="btn">상세페이지</h1>
+                       <div class="modal">
+                         <div class="modal-content">
+                           <span class="close">&times;</span>
+              <img src="./images/page_detail/theskinface/package_cos_sp_1.jpg" style="width:100%;">
+            </div>
+           </div> 
+                            <div><ul>
+                            <li class="icons">
+                            <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+                            </li></ul></div></div>
+                        </section>                         -->
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_2.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">닥터페어리 브라이트 존</div><br/>
+                    <span style =
+                    "display: inline-block;
+                    background-color: #3b611c;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">의약외품/치아패치</span>
+                    &nbsp;
+                                 <span style =
+                                 "display: inline-block;
+                                 background-color: #2b266b;
+                                 text-indent: 10px;
+                                 font-size:1em;
+                                 margin-bottom:0.3em;
+                                  padding: 1px 10px 1px 0px;
+                                 color: #ffffff;">기능성화장품/마스크팩</span></h4></p>           
+            <p><div class="txt_box_class2">2019년 4월-7월, (주)더스킨페이스</div></p>
+            <p><div class="txt_box_class3">
+                   닥터페어리 브랜드의 치아패치&마스크팩 패키지 디자인 시안 입니다.
+                   소비자가 제품 파우치 디자인만 보더라도 제품 용도를 빠르게 파악할 수 있게 하는 것에
+                   목적을 두었습니다. 링거 디자인과 STEP 02는 당시 유행이었던 LED 마스크를 넣어
+                   닥터 페어리 브랜드의 전문적인 이미지를 디자인에 표현하고자 했습니다.</div></p>
+
+                   <p><div class="txt_box_part">
+                    참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-2"></div>
+       </div>
+     </div>
+
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section>                             
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_3.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">립 큐티 매트</div><br/>
+                    <span style =
+                    "display: inline-block;
+                    background-color: #b85d5d;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">색조화장품/립매니큐어</span></h4></p>
+                <p><div class="txt_box_class2">2019년 8월-10월, (주)더스킨페이스</div></p>
+                <p><div class="txt_box_class3">
+                    10대 여성을 타겟으로 출시한 립 큐티 매트 제품 패키지 디자인 시안입니다.
+                    제품패키지만 봐도 시각적으로 구분이 쉽도록 내용물의 색상과 용기 색상을 매치
+                    했습니다. 단상자에 제품명 부분을 은박인쇄와 음각 기법의 형압으로 후가공 처리하여
+                    포인트를 주었고 각 호수명 부위에 부분 UV코팅으로 포인트를 주고자 했습니다.</div></p>
+
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-3"></div>
+       </div>
+     </div>
+
+    <h1 class="btn">상세페이지</h1>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="./images/page_detail/theskinface/package_cos_sp_3.jpg" style="width:100%;">
+            </p>
+      </div>
+    </div>
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section>                               
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_4.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">보떼 로맨틱 립스틱</div><br/>
+                    <span style =
+                    "display: inline-block;
+                    background-color: #e8cb4c;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">색조화장품/립스틱</span></h4></p>
+                <p><div class="txt_box_class2">2017년 10월-12월, (주)더스킨페이스</div></p>
+                <p><div class="txt_box_class3">
+                    20대 여성을 타겟으로 출시한 립스틱 제품 패키지 디자인 시안입니다.
+                    패키지에 전체적으로 블랙톤을 사용해 고급스러운 이미지와 포인트로 금박을
+                    사용해 럭셔리한 느낌을 표현하고자 했습니다. 금박과 블랙톤의 톤앤매너에서
+                    심볼을 원색으로 강조했고 단상자는 BI인 BOTE를 상하로 엇갈리게 배치해
+                    디자인적인 요소를 더하고자 했습니다.</div></p>
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-4"></div>
+       </div>
+     </div>
+
+    <h1 class="btn">상세페이지</h1>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="./images/page_detail/theskinface/package_cos_sp_4.jpg" style="width:100%;">
+            </p>
+      </div>
+    </div>
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section> 
+
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_5.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">다이아 더 퍼퓸스틱</div><br/>
+                <span style =
+                    "display: inline-block;
+                    background-color: #b5346a;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">향수/스틱향수</span></h4></p>
+                 <p><div class="txt_box_class2">2017년 5월-9월, (주)더스킨페이스</div></p>
+                <p><div class="txt_box_class3">
+                    총 7종의 각기 다른 매력의 향기의 스틱향수를 무지개색상 컨셉으로 패키지 디자인하였습니다.
+                    각 향의 아이덴티티에 맞는 컬러를 매치하여 향의 이미지를 시각화하고자 했습니다.
+                    단상자와 용기의 패턴 테두리와 제품명에 금박을 입혀 부각시켰고, 화려함을 더하고자 했습니다.</div></p>
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-5"></div>
+       </div>
+     </div>
+
+    <h1 class="btn">상세페이지</h1>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="./images/page_detail/theskinface/package_cos_sp_5.jpg" style="width:100%;">
+            </p>
+      </div>
+    </div>
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section> 
+
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_6.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">보떼 워터프루프 선블럭</div><br/>
+                    <span style =
+                    "display: inline-block;
+                    background-color: #95c7ff;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">기능성화장품/선블럭</span></h4></p>
+                 <p><div class="txt_box_class2">2017년 3월-6월, (주)더스킨페이스</div></p>
+                <p><div class="txt_box_class3">
+                    제품의 주성분인 알로에베라잎 성분의 피부에 활력을 주는 장점과 제품 제형의 가볍고
+                    산뜻한 느낌을 주기 위해 전체적으로 파란색 컬러와 흰색을 매치하여 전체적으로 맑고
+                    깨끗한 이미지를 패키지에 담고자 했고, 내지에는 BI인 BOTE를 패턴으로 활용하여 양면 인쇄하였습니다.</div></p>
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 개인작업/패키지디자인 및 총괄</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-6"></div>
+       </div>
+     </div>
+
+    <h1 class="btn">상세페이지</h1>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="./images/page_detail/theskinface/package_cos_sp_6.jpg" style="width:100%;">
+            </p>
+      </div>
+    </div>
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section> 
+
+
+
+
+    <section class="box_wrap">
+        <div class="container3">
+          <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./images/package_cosmetic_7.png" alt="">
+            </div>
+
+            <div class="txt_box4">
+              <p><h4><div class="txt_box_title">보떼 레드 립스틱</div><br/>
+                    <span style =
+                    "display: inline-block;
+                    background-color: #990000;
+                    text-indent:10px;
+                    font-size:1em;
+                    margin-bottom:0.3em;
+                    padding: 1px 10px 1px 0px;
+                    color: #ffffff;">색조화장품/립스틱</span></h4></p>
+                 <p><div class="txt_box_class2">2017년 2월-3월 (주)더스킨페이스</div></p>
+                <p><div class="txt_box_class3">
+                    발렌타인 데이를 기념하기 위해 한정판으로 출시 된 보떼 립스틱의 리디자인 패키지입니다.
+                    붉은색을 메인컬러로 사용해 전체적으로 매혹적인 느낌과 단상자는 가운데에 양각으로 형압 처리하여
+                    립스틱 바디를 표현하고자 했습니다. CCP 지류에 전체 유광코팅 처리하여 광택을 더했고
+                    금박처리로 포인트를 주고자 했습니다.</div></p>
+                    <p><div class="txt_box_part">
+                      참여인원/담당: 2인/일부 디자인(단상자, 라벨)작업</br>사용툴:</div></p>
+     <h1 class="btn">패키지</h1>
+     <div class="modal">
+       <div class="modal-content3">
+         <span class="close">&times;</span> 
+         <div id="slide5_3-7"></div>
+       </div>
+     </div>
+
+    <h1 class="btn">상세페이지</h1>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="./images/page_detail/theskinface/package_cos_sp_7.jpg" style="width:100%;">
+            </p>
+      </div>
+    </div>
+    <div><ul>
+    <li class="icons">
+    <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+    </li></ul></div></div>
+    </section></div>
+
+
+    <!-- main 끝 -->
+
+    <!-- footer 시작 -->
+    <div class="footer">
+      <div class="navi">
+          <ul class="fnb">
+              <li>박혜원</li>
+              <li><a href="./images/박혜원 포트폴리오_2023년도_압축.pdf" download="">포트폴리오 다운로드</a></li>
+          </ul>
+      </div>
+
+      <div class="navi3">
+          <ul class="fnb3">
+              <li>Adress. 인천광역시 연수구</li>
+              <li>Tel. 010-5213-1967</li>
+              <li>E-mail. phw1967@naver.com</li>
+              <li>Copyright 2023 by [Park Hye Won]</li>
+          </ul>
+          </div>
+
+          <!-- <ul class="link">
+              <li><a href="#">바로가기</a></li>
+              <li><a href="#">바로가기</a></li>
+          </ul> -->
+      </div>
+  </div>
+  <!-- footer 끝 -->
+  <script src="style/m_menu.js"></script>
+    <script src="style/popup.js"></script>
+
+   <!-- 스크롤애니메이션 -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+   AOS.init();
+   </script>
+
+    <script type="text/javascript">
+        lightbox.option({
+           resizeDuration:500,
+           wrapAround: true,
+           disableScrolling: false,
+           fitImagesInViewport:false
+       })
+     </script>
+         <script type="text/javascript">
+async function fetchHtmlAsText(url) {
+    return await (await fetch(url)).text();
+}
+
+async function importPage(target) {
+    document.querySelector('#' + target).innerHTML = await fetchHtmlAsText(target + '.html');
+}
+importPage('slide5_3-1');
+importPage('slide5_3-2');
+importPage('slide5_3-3');
+importPage('slide5_3-4');
+importPage('slide5_3-5');
+importPage('slide5_3-6');
+importPage('slide5_3-7');
+</script>
+</body>
+</html>

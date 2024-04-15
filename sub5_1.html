@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 공유 -->
+    <meta property="og:url" content="http://www.hyewon.woobi.co.kr/">
+    <meta property="og:title" content="박혜원 포트폴리오">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/or_img.jpg">
+    <meta property="og:description" content="시각디자인 부문">
+    <!-- font css -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" />
+    <!-- // font css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- 팝업창 -->
+    <!-- <link rel="stylesheet" href="style/popup.css"> -->
+    <link rel="stylesheet" href="style/silde_popup_sub.css">
+    <!-- <link rel="stylesheet" href="style/silde_img.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- 스크롤애니메이션    -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <!-- 파비콘 삽입 -->
+<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- 파비콘 끝 -->
+<style>
+ @import "./media/5-1_mq.css";
+    
+.modal-content {
+            justify-content: center;
+            justify-items: center;
+            background-color: #fefefe;
+            overflow-y: auto;
+            overflow-x: hidden;
+    }
+    .close2 {
+    color: #aaa;
+    font-size: 35px;
+    font-weight: bold;
+    float: right;
+    margin: -40px -40px 80px;
+    z-index: 1000;
+    padding: 3px;
+    float: right;
+    /* margin: -42px -70px 40px;
+    padding: 3px; */
+}
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+    <title>박혜원 패키지디자인</title>
+</head>
+<body>
+<!-- header 시작 -->
+<div id="wrap">
+    <div class="mainNav2">
+    </div>
+    <div class="scrollNav2">
+    </div></div>
+
+    <div class="header">
+        <h1 class="logo">
+            <a href="./main.html">
+              <img class="main-logo-img" alt="메인로고" title="">
+                <span class="hidden">박혜원</span>
+            </a>
+        </h1>
+
+    <div class="navBox">
+        <img class="iconBtn" id="menuBtn" src="./images/menu_bar_m.png" />
+      </div>
+
+      <div class="menuWrap">
+        <nav id="menu">
+          <ul class="menuList">
+            <li><a href="./sub0.html"><div class="listStyle_main">자기소개</div></a></li>
+            <li><a href="./sub0.html"><div class="listStyle_sub">프로필</div></a></li>
+            <li><a href="./sub0_2.html"><div class="listStyle_sub2">경력사항</div></a></li>
+            </li>
+            <hr size="0.1" color="#d7d7d7">
+            <li><a href="./sub5_1.html"><div class="listStyle_main">패키지디자인</div></a></li>
+            <li><a href="./sub5_1.html"><div class="listStyle_sub">귀금속패키지</div></a></li>
+            <li><a href="./sub5_2.html"><div class="listStyle_sub">전자기기패키지</div></a></li>
+            <li><a href="./sub5_3.html"><div class="listStyle_sub2">화장품패키지</div></a></li>
+            </li>
+            <hr size="0.1" color="#d7d7d7">
+             <li><a href="./sub6_1.html"><div class="listStyle_main">시각디자인</div></a></li>
+             <li><a href="./sub6_1.html"><div class="listStyle_sub">편집디자인</div></a></li>
+             <li><a href="./sub6_2.html"><div class="listStyle_sub">콘텐츠디자인</div></a></li>
+             <li><a href="./sub6_3.html"><div class="listStyle_sub2">웹디자인</div></a></li>     
+             </li>
+              <hr size="0.1" color="#d7d7d7">
+              <li><a href="./sub7_1.html"><div class="listStyle_main">영상제작</div></a></li>
+              <!-- <li><a href="./sub7_1.html"><div class="listStyle_sub">제품홍보영상</div></a></li>
+              <li><a href="./sub7_2.html"><div class="listStyle_sub">애니메이션</div></a></li> -->
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- header 끝 -->
+
+
+    <!-- main 시작 -->
+    <div class="main3">
+        <h3 class="page_title3">패키지디자인</h3>
+        <div class="container3">
+            <ul class="tab_btn tp-box">
+                <li><a href="./sub5_1.html" class="active">귀금속패키지</a></li>
+                <li><a href="./sub5_2.html">전자기기패키지</a></li>
+                <li><a href="./sub5_3.html">화장품패키지</a></li>
+            </ul>
+        </div>
+
+        <section class="box_wrap">
+            <div class="container3">
+                <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./images/package_precious_1.png" alt="">
+                </div>
+
+                <div class="txt_box4">
+                    <p><h4><div class="txt_box_title">스파이더맨 실버코인</div><br/>
+                        <span style =
+                        "display: inline-block;
+                        background-color: #d70000;
+                        text-indent:10px;
+                        font-size:1em;
+                        margin-bottom:0.3em;
+                        padding: 1px 10px 1px 0px;
+                        color: #ffffff;">귀금속/실버코인</span></h4></p>
+                    <p><div class="txt_box_class2">2022년 10월-11월, 대성금속(주)</div></p>
+                    <p><div class="txt_box_class3">
+                        마블의 인기히어로 스파이더맨 실버코인 패키지 시안입니다. 스파이더맨 마스크 에셋과
+                        스파이더맨의 상징인 거미줄 및 카툰 배경 디자인의 슬립지와
+                        스파이더맨 BI와 자사 CI 은박로고가 찍힌 주얼리 케이스로 패키징 했습니다.</div></p>
+
+        <p><div class="txt_box_part">
+        참여인원/담당: 3인/일부 디자인(슬립지, 보증서)</br>사용툴:</div></p>
+         <h1 class="btn">패키지</h1>
+         <div class="modal">
+           <div class="modal-content3">
+             <span class="close">&times;</span> 
+             <div id="slide5_1-1"></div>
+           </div>
+         </div>
+
+        <h1 class="btn">상세페이지</h1>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+                  <img src="./images/page_detail/daesung/package_pre_sp_1.png" style="width:100%;">
+ 
+          </div>
+        </div>
+        <ul>
+        <li class="icons">
+        <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+        <li><p class="icon_item"><img src="./images/ps_icon.png" width="28" height="28" alt=""></p></li>
+        </li></ul>
+        </section>                         
+
+
+
+
+        <section class="box_wrap">
+            <div class="container3">
+                <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./images/package_precious_2.png" alt="">
+                </div>
+
+                <div class="txt_box4">
+                    <p><h4><div class="txt_box_title">스파이더맨 실버바</div><br/>
+                        <span style =
+                        "display: inline-block;
+                        background-color: #193c8e;
+                        text-indent:10px;
+                        font-size:1em;
+                        margin-bottom:0.3em;
+                        padding: 1px 10px 1px 0px;
+                        color: #ffffff;">귀금속/실버바</span></h4></p>       
+                    <p><div class="txt_box_class2">2022년 5월-7월, 대성금속(주)</div></p>
+                    <p><div class="txt_box_class3">
+                       마블의 액션 히어로 스파이더맨의 활약과 스파이더맨의 상징인 거미로 섬세하게 디자인된
+                       순은 999.9% 색채 실버바입니다. 스파이더맨 카툰배경이 담긴 전용 고급 케이스와
+                       스웨이드 재질의 게또바시에 제품을 세워서 전시하여 실버바를 감상할 수 있습니다.</div></p>
+
+                        <p><div class="txt_box_part">
+                        참여인원/담당: 3인/일부 디자인(박스 패키지, 보증서)</br>사용툴:</div></p>
+                        <h1 class="btn">패키지</h1>
+                        <div class="modal">
+                          <div class="modal-content3">
+                            <span class="close">&times;</span> 
+                            <div id="slide5_1-2"></div>
+                          </div>
+                        </div>
+                    <!-- 두 번째 Modal을 여는 클래스 -->
+                    <h1 class="btn">상세페이지</h1>
+                
+                    <!-- 두 번째 Modal -->
+                    <div class="modal">
+                
+                    <!-- 두 번째 Modal의 내용 -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p><img src="./images/page_detail/daesung/package_pre_sp_2.png" style="width:100%;">
+                            </p>
+                    </div>
+                    </div>
+                       <div><ul>
+                       <li class="icons">
+                       <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+                       <li><p class="icon_item"><img src="./images/ps_icon.png" width="28" height="28" alt=""></p></li>
+                       </li></ul></div></div>
+                       </section>                        
+
+
+        <section class="box_wrap">
+            <div class="container3">
+                <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./images/package_precious_3.png" alt="">
+                </div>
+
+                <div class="txt_box4">
+                    <p><h4><span style = "letter-spacing:-3px; word-spacing:1px; font-weight:bold; font-size:2em; color: #393939;">디즈니 임인년 골드바</span>
+                        <span style =
+                        "display: inline-block;
+                        background-color: #e3d7b1;
+                        text-indent:10px;
+                        font-size:1em;
+                        margin-bottom:0.3em;
+                        padding: 1px 10px 1px 0px;
+                        color: #ffffff;">귀금속/골드바</span></h4></p>
+                    <p><div class="txt_box_class2">2022년 5월-6월, 대성금속(주)</div></p>
+                    <p><div class="txt_box_class3">
+                        2022년 임인년을 맞아 디즈니의 대표 캐릭터 미키마우스를 담은 골드바 패키지 디자인입니다.
+                        종이재질의 카드에 3.75g 골드바 크기 도무송이 있어 골드바를 앞, 뒤로 감상할 수 있으며
+                        디즈니 로고를 금박으로 후가공한 고급 자석 싸바리 패키지를 더한 한정판 카드형 골드바입니다.</div></p>
+                        <p><div class="txt_box_part">
+                        참여인원/담당: 2인/일부 디자인(카드 패키지, 표지싸바리)</br>사용툴:</div></p>
+                        <h1 class="btn">패키지</h1>
+                        <div class="modal">
+                          <div class="modal-content3">
+                            <span class="close">&times;</span> 
+                            <div id="slide5_1-3"></div>
+                          </div>
+                        </div>  
+                    <!-- 세 번째 Modal을 여는 클래스 -->
+                    <h1 class="btn">상세페이지</h1>
+                
+                    <!-- 세 번째 Modal -->
+                    <div class="modal">
+                
+                    <!-- 세 번째 Modal의 내용 -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p><img src="./images/page_detail/daesung/package_pre_sp_3.png" style="width:100%;">
+                            </p>
+                    </div>
+                    </div>
+                       <div><ul>
+                       <li class="icons">
+                       <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+                       </li></ul></div></div>
+                       </section>               
+                
+
+
+        <section class="box_wrap">
+            <div class="container3">
+                <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./images/package_precious_4.png" alt="">
+                </div>
+
+                <div class="txt_box4">
+                    <p><h4><span style = "letter-spacing:-3px; word-spacing:1px; font-weight:bold; font-size:2em; color: #393939;">해외 실버코인 패키지</span>
+                        <span style =
+                        "display: inline-block;
+                        background-color: #f5af53;
+                        text-indent:10px;
+                        font-size:1em;
+                        margin-bottom:0.3em;
+                        padding: 1px 10px 1px 0px;
+                        color: #ffffff;">귀금속/실버코인</span></h4></p>
+                    <p><div class="txt_box_class2">2022년 3월, 대성금속(주)</div></p>
+                    <p><div class="txt_box_class3">
+                        해외에서 수입한 실버코인 2종인 메이플 실버코인, 아메리칸 이글 실버코인 1oz의
+                        패키지 디자인입니다. 원형 도무송이 있는 단박스에 실버코인을 스펀지로 고정시켜
+                        실버코인의 앞뒤를 감상할 수 있는 패키지입니다.</div></p>
+                        <p><div class="txt_box_part">
+                            참여인원/담당: 개인작업/제작 및 총괄</br>사용툴:</div></p>
+                        <h1 class="btn">패키지</h1>
+                        <div class="modal">
+                          <div class="modal-content3">
+                            <span class="close">&times;</span> 
+                            <div id="slide5_1-4"></div>
+                          </div>
+                        </div>
+                       <div><ul>
+                       <li class="icons">
+                       <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+                       <li><p class="icon_item"><img src="./images/ps_icon.png" width="28" height="28" alt=""></p></li>
+                       </li></ul></div></div>
+                       </section>                         
+
+
+
+        <section class="box_wrap">
+            <div class="container3">
+                <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./images/package_precious_5.png" alt="">
+                </div>
+
+                <div class="txt_box4">
+                    <p><h4><span style = "letter-spacing:-3px; word-spacing:1px; font-weight:bold; font-size:2em; color: #393939;">까치호랑이 골드바</span>
+                        <span style =
+                        "display: inline-block;
+                        background-color: #aa0000;
+                        text-indent:10px;
+                        font-size:1em;
+                        margin-bottom:0.3em;
+                        padding: 1px 10px 1px 0px;
+                        color: #ffffff;">귀금속/골드바</span></h4></p>
+                    <p><div class="txt_box_class2">2022년 3월, 대성금속(주)</div></p>
+                    <p><div class="txt_box_class3">
+                        2022년 임인년을 맞아 까치 호랑이 작호도를 담은 골드바 패키지 디자인입니다.
+                        종이재질의 카드에 1g 골드바 크기 도무송이 있어 골드바를 앞, 뒤로 감상할 수 있으며
+                        대성금속의 그리핀 로고를 금박으로 후가공한 고급 자석 싸바리 패키지를 더했습니다.</div></p>
+                        <p><div class="txt_box_part">
+                            참여인원/담당: 2인/일부 디자인(카드 패키지, 표지싸바리)</br>사용툴:</div></p>
+                            <h1 class="btn">패키지</h1>
+                            <div class="modal">
+                              <div class="modal-content3">
+                                <span class="close">&times;</span> 
+                                <div id="slide5_1-5"></div>
+                              </div>
+                            </div>       
+                        <!-- 다섯 번째 Modal을 여는 클래스 -->
+                        <h1 class="btn">상세페이지</h1>
+                    
+                        <!-- 다섯 번째 Modal -->
+                        <div class="modal">
+                    
+                        <!-- 다섯 번째 Modal의 내용 -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p><img src="./images/page_detail/daesung/package_pre_sp_5.jpg" style="width:100%;">
+                                </p>
+                        </div>
+                        </div>
+                           <div><ul>
+                           <li class="icons">
+                           <li><p class="icon_item"><img src="./images/ai_icon.png" width="28" height="28" alt=""></p></li>
+                           </li></ul></div></div>
+                           </section>   
+
+
+    <!-- main 끝 -->
+
+    <!-- footer 시작 -->
+    <div class="footer">
+        <div class="navi">
+            <ul class="fnb">
+                <li>박혜원</li>
+                <li><a href="./images/박혜원 포트폴리오_2023년도_압축.pdf" download="">포트폴리오 다운로드</a></li>
+            </ul>
+        </div>
+
+        <div class="navi3">
+            <ul class="fnb3">
+                <li>Adress. 인천광역시 연수구</li>
+                <li>Tel. 010-5213-1967</li>
+                <li>E-mail. phw1967@naver.com</li>
+                <li>Copyright 2023 by [Park Hye Won]</li>
+            </ul>
+            </div>
+
+            <!-- <ul class="link">
+                <li><a href="#">바로가기</a></li>
+                <li><a href="#">바로가기</a></li>
+            </ul> -->
+        </div>
+    </div>
+    <!-- footer 끝 -->
+    <script src="style/m_menu.js"></script>
+    <script src="style/popup.js"></script>
+
+    <!-- 스크롤애니메이션 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script type="text/javascript">
+        lightbox.option({
+           resizeDuration:500,
+           wrapAround: true,
+           disableScrolling: false,
+           fitImagesInViewport:false
+       })
+     </script>
+         <script type="text/javascript">
+async function fetchHtmlAsText(url) {
+    return await (await fetch(url)).text();
+}
+
+async function importPage(target) {
+    document.querySelector('#' + target).innerHTML = await fetchHtmlAsText(target + '.html');
+}
+importPage('slide5_1-1');
+importPage('slide5_1-2');
+importPage('slide5_1-3');
+importPage('slide5_1-4');
+importPage('slide5_1-5');
+
+</script>
+</body>
+</html>
