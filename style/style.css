@@ -2367,26 +2367,8 @@ html.side-bar-active .side-bar-bg {
 body {
   height: 100%;
   font: 16px/1.5 "Montserrat", "Roboto", "Noto Sans KR", "PingFang SC", "Apple SD Gothic Neo", "Microsoft YaHei UI", "Malgun Gothic", sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -0.01em;
 }
-
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://fonts.gstatic.com/s/notosanskr/v2/Pby6FmXiEBPT4ITbgNA5CgmOSsn0lzY.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+AC00-D7A3;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxM.woff2') format('woff2');
-}
-
-
 
 h4 {
   font-weight: bold;
@@ -3007,6 +2989,21 @@ animation: fadeIn 1.5s forwards;
                 word-spacing: -2px;
                 line-height: 1.7;
             }
+
+
+            @font-face {
+              font-family: 'Noto Sans KR';
+              font-style: normal;
+              font-weight: 400;
+              src: url('https://fonts.gstatic.com/s/notosanskr/v13/Pby6FmXiEBPT4ITbgNA5CgmOSsn0.woff2') format('woff2');
+          }
+          
+          @font-face {
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 400;
+              src: url('https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxM.woff2') format('woff2');
+          }
 
             /* 경력사항 */
             h5{
